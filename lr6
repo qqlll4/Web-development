@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href = "ex1.css" rel = stylesheet>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин техники</title>
+</head>
+<body>
+
+    <div class=header>
+            <h1>DevStore </h1>
+        </div>
+        <div class=nav>
+            <div>
+                <a class=pt  href="">Главная</a>
+                <div class=drop> 
+                    <a class=drop_item href="">Главная страница </a>
+                    <a class=drop_item href="">Контакты</a>
+                    <a class=drop_item href="">О Нас</a>
+                </div> 
+            </div>
+            <a class=pt href="">Отделы продаж</a>        
+            <div>
+                <a class=pt  href="">Поставщики </a>
+                <div class=drop> 
+                    <a class=drop_item href="">ООО "Дизайн"</a>
+                    <a class=drop_item href="">ООО "Арт"</a>
+                    <a class=drop_item href="">ООО "Фотостиль"</a>
+                </div> 
+            </div>
+            <a class=pt href="">Наши услуги</a>
+            <a class=pt href="">Контакты</a>
+            <a class=pt href="">О нас</a>        
+    </div>
+
+
+    <div class="container">
+        <div class="left">
+            <h3 class="left-title">Устройства</h3>
+                <div class="menu">
+                    <div class="litem">
+                        <a href="#" class="llink">Смартфоны</a>
+                        <div class="ldrop">
+                            <a href="#" class="drop-item">iPhone</a>
+                            <a href="#" class="drop-item">Samsung</a>
+                            <a href="#" class="drop-item">Xiaomi</a>
+                        </div>
+                    </div>
+        
+                    <div class="litem">
+                        <a href="#" class="llink">Планшеты</a>
+                    </div>
+        
+                    <div class="litem">
+                        <a href="#" class="llink">Ноутбуки</a>
+                    </div>
+        
+                    <div class="litem">
+                        <a href="#" class="llink">Компьютеры</a>
+                        <div class="ldrop">
+                            <a href="#" class="drop-item">Игровые ПК</a>
+                            <a href="#" class="drop-item">Офисные ПК</a>
+                            <a href="#" class="drop-item">Моноблоки</a>
+                        </div>
+                    </div>
+        
+                    <div class="litem">
+                        <a href="#" class="llink">Аксессуары</a>
+                    </div>
+                </div>
+        </div>
+        <div class="right">
+                <h3>Контакты</h3>
+                
+                <div class="ritem">
+                    <p>Телефон:</p>
+                    <p>8-800-999-99-99</p>
+                </div>
+                
+                <div class="ritem">
+                    <p>Email:</p>
+                    <p>devstore11@gmail.com</p>
+                </div>
+                
+                <div class="ritem">
+                    <p>Адрес:</p>
+                    <p>г. Уфа, ул. Спортивная, 10</p>
+                </div>
+                
+                <h3>Режим работы</h3>
+                
+                <div>
+                    <span>Пн-Пт:</span> <span>10:00 - 21:00</span>
+                </div>
+                <div>
+                    <span>Сб-Вс:</span> <span>11:00 - 20:00</span>
+                </div>
+    
+        </div>
+        <div class="center">
+            <h2 class="center-h2">Популярные товары</h2>
+            
+            <div class="products">
+                <div class="base">
+                    <p class="txt">iPhone 17</p>
+                    <a href="#" class="layer">89 990 ₽</a>
+                </div>
+                
+                <div class="base">
+                    <p class="txt">MacBook Pro</p>
+                    <a href="#" class="layer">149 990 ₽</a>
+                </div>
+                
+                <div class="base">
+                    <p class="txt">Apple Watch</p>
+                    <a href="#" class="layer">39 990 ₽</a>
+                </div>
+                
+                <div class="base">
+                    <p class="txt">AirPods Pro</p>
+                    <a href="#" class="layer">24 990 ₽</a>
+                </div>
+                
+                <div class="base">
+                    <p class="txt">Samsung S24</p>
+                    <a href="#" class="layer">79 990 ₽</a>
+                </div>
+                
+                <div class="base">
+                    <p class="txt">PS5</p>
+                    <a href="#" class="layer">50 000 ₽</a>
+                </div>
+                
+                <div class="base">
+                    <p class="txt">Xiaomi 14</p>
+                    <a href="#" class="layer">59 990 ₽</a>
+                </div>
+                
+                <div class="base">
+                    <p class="txt">Samsung Watch</p>
+                    <a href="#" class="layer">29 990 ₽</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
