@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <title>FastFoodDelivery</title>
+    <link rel="stylesheet" href="lr6.css">
+</head>
+<body>
+    <div class="body__container">
 
+        <nav>
+            <div class="container">
+                
+                <div class="left-nav">
+                    <img src="chef-hat.svg" alt="chef-hat">
+                    <span class="nav__logo-text">Foo</span>
+                </div>
+
+                <div class="nav-menu">
+                    <a class = "nav-link" href = "">Home</a>
+                    <a class = "nav-link" href = "">Menu</a>
+                    <a class = "nav-link" href = "">Contact</a>
+                    <a class = "nav-link" href = "">Shop</a>
+                </div>
+                
+                <div class="nav__actions">
+                    <form class="search" role="search">
+                        <button class="search__submit">
+                            <img src="img1.svg" alt="" class="search__icon">
+                        </button>
+                        <input class="search__input" placeholder="Search">
+                    </form>
+
+                    <span class="line"></span>
+                    <div class="cart">
+                        <a href="" class="cart__link">
+                            <img src="Shoppingcart.svg" alt="Корзина" class="cart__icon">
+                            <span class="cart__num">2</span>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+
+
+
+        <main>
+            <div class="main__left">
+                <div class="logo">
+                    <div class="logo__part1">Fast</div>
+                    <div class="logo__part2">Food Delivery</div>
+                </div>
+
+                <div class="main-text">
+                    <div class="main-paragraph">Sed ut perspiciatis unde omnis iste 
+                        natus sit voluptatem accusantium doloremque laudantium</div>
+                </div>
+
+                <div class="button-elements">
+                    <div class="button__elem1">Order Now</div>
+                    <div class="button__circle">
+                        <div class="button__triangle"></div>
+                    </div>
+                    <div class="button__elem2">Watch Video</div>
+                </div>
+
+                <div class="rating">
+                    <div class="stars">
+                        <img src="star.png" alt="" class="rating__star">
+                        <img src="star.png" alt="" class="rating__star">
+                        <img src="star.png" alt="" class="rating__star">
+                        <img src="star.png" alt="" class="rating__star">
+                        <img src="star.png" alt="" class="rating__star">
+                    </div>
+                    <div class="bold-text">5 star rating</div>
+                    <div class = "grey-text"> based on 1788 reviews</div>
+                </div>
+            </div>
+
+
+            <div class="main__right">
+                <div class="img">
+                    <img src="bigfood.png" alt="bigfood"class="img__bigfood">
+                </div>
+            </div>
+        </main>
+
+
+    </div>
+</body>
+</html>
